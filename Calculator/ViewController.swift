@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         statusButton = true
         numberValue = " "
         guard let number = Double(displayLabel.text!) else{
-            fatalError("ERROR, cannot convert to double")
+            fatalError("ERROR, cannot convert to double, ERROR")
         }
         
       
